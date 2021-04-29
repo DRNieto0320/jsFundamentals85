@@ -38,9 +38,8 @@ if(name != 'David'){
     console.log('Hello, is your name, ' +name+ '?');
 }
 
-/* **********
-// ! Else If
-************ */
+//Else If
+
 
 let newName = 'Eric';
 
@@ -62,8 +61,14 @@ if (newName == 'Waldo'){
     If the age is at least 25, console.log 'You can rent a car!'
 */
 
-let anyAge = 16;
+let anyAge = 24;
 
 if (anyAge <= 17){
     console.log("Sorry, you're too young to do anything.");
-}else if(anyAge)
+}else if(anyAge >= 18 && anyAge <= 20){
+    console.log("You can vote!");
+}else if(anyAge >= 21 && anyAge <= 24){
+    console.log("You can drink!");
+}else if(anyAge >= 25){
+    console.log("You can rent a car!");
+} 

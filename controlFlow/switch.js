@@ -23,3 +23,19 @@ switch(officeCharacter) {
     If the dessert is ice cream, console.log 'I scream for ice cream!'
     Otherwise, have your switch statement console.log 'Not on the menu.'
 */
+
+let dessertMenu = 'Ice Cream';
+
+switch(dessertMenu) {
+    case 'Pie':
+        console.log("Pie, pie, me oh my!");
+        break;
+    case 'Cake':
+        console.log("Cake is great!");
+        break;
+    case "Ice Cream":
+        console.log("I scream for ice cream!");
+        break;
+    default:
+        console.log("Not on the menu.");
+}
