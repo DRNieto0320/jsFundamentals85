@@ -5,8 +5,8 @@
 
 //      - Second Pass: Assigns the values to our variables and executes any hoisted source code.
 
-// console.log (myName);
 let myName = "Eric";
+console.log (myName);
 // console.log(randomVariable);
 
 b()

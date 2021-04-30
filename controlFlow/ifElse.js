@@ -72,3 +72,6 @@ if (anyAge <= 17){
 }else if(anyAge >= 25){
     console.log("You can rent a car!");
 } 
+
+
+

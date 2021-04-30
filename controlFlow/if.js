@@ -1,4 +1,4 @@
-// !Falsey Values
+// Falsey Values
 
 // - 6 different values
 //      - False

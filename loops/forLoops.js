@@ -29,3 +29,5 @@ for(let i = 0; i <= 50; i += 1){
     sum += i;
 }
 console.log(sum);
+
+
