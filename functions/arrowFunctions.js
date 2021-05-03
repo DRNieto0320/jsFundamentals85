@@ -1,8 +1,10 @@
 //ARROW FUNCTIONS
 //
-//  let hi=()=>{
-//    console.log("hi");
-//}
+  let hi=()=>{
+    console.log("hi");
+}
+
+hi();
 //
 //  1: We need to set the fat arrow function to a variable.
 //  2: We use the 'fat arrow' to signify its a function.
@@ -33,7 +35,7 @@ apples("too many damn");
 let bananas = x => {
     console.log(`There are ${x} bananas`);
 }
-bananas(10);
+bananas (10);
 
 //  if no or multiple parameters needed - use ()
 //  do not need () if we are only passing 1 parameter.

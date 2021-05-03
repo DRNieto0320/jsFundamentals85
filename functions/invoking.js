@@ -3,7 +3,7 @@
 function hi(){
     console.log("Hi");
 }
-
+counting();
 hi();
 
 //Create a function that, when invoked, lists out the numbers 1-10
@@ -14,4 +14,4 @@ function counting(){
     } 
 }
 
-counting();
+
