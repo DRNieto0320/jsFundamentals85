@@ -1,5 +1,5 @@
 //Dot notation to access the values in a given object
-
+/*
 let netflix = {
     id: 1,
     name: "The Office",
@@ -48,7 +48,7 @@ console.log(netflix.season1.seasonInfo.episodeInfo[5].episodeName);
 for(let i=0;i<=netflix.season1.seasonInfo.episodeInfo.length;i++){
     console.log(netflix.season1.seasonInfo.episodeInfo[i].episodeName);
 }
-
+/*
 
 
 
@@ -85,6 +85,7 @@ let spaceJam = {
 
 console.log(spaceJam.toonSquad.rabbit1);
 console.log(spaceJam.nbaPlayers.charlotteHornets1);
-
+/*
 let test = Object.keys(spaceJam);
 console.log(test);
+*/
